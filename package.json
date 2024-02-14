@@ -1,0 +1,23 @@
+{
+  "name": "my-first-react-abhishek-6-package",
+  "version": "1.6.4",
+  "description": "This is my first package for showing svg icons width custom height,width and color",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "npm"
+  ],
+  "author": "ABHISHEK",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
